@@ -1,0 +1,95 @@
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+th,td {
+  padding: 12px;
+  vertical-align: middle;
+  border-top: 1px solid rgb(222, 226, 230);
+}
+
+thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid rgb(222, 226, 230);
+}
+
+tbody + tbody {
+  border-top: 2px solid rgb(222, 226, 230);
+}
+
+.ts-logo-link {
+  text-decoration-line: none;
+  display: flex;
+}
+
+.ts-logo-img {
+  width: 50px;
+}
+
+.ts-logo {
+  display: flex;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: .5rem;
+  color: #2E3E4D;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.ts-menu {
+  list-style-type: none;
+  background: #2E3E4D;
+  color: #FFFFFF;
+  padding: 1rem;
+}
+
+.ts-menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ts-article {
+  margin: 5rem 1rem;
+}
+
+.article-info {
+  text-align: right;
+}
+
+.date {
+  vertical-align: top;
+  margin-left: .5rem;
+}
+
+.footer {
+  margin: 5rem 1rem;
+}
+
+.partner-list {
+  list-style-type: square;
+}
+
+.partner-list a {
+  text-decoration-line: none;
+}
+
+.ts-link {
+  color: #2E3E4D;
+  text-decoration: none;
+  border-bottom: 1px solid #2E3E4D;
+}
+
+.ts-link:hover {
+  color: rgb(139, 187, 233);
+  border-bottom: 1px solid rgb(139, 187, 233);
+}
+
